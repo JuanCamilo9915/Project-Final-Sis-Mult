@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.titulo-principal{
+    font-size: 150px;
+    text-align: center;
+}
+
+p{
+    font-size: 50px;
+    margin: 30%;
+    padding: 7%;
+}
+/*
+.contenedor-img{
+    justify-self: center;
+}
+*/
+.imagen-prueba{
+    width: 120px;
+    height: 120px;
+    margin: 0% 50% 0% 50%;
+}
