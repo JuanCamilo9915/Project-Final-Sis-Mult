@@ -1,0 +1,27 @@
+#pie-pagina{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: #EADBB1;
+}
+
+#referencia-1{
+    position: absolute;
+    bottom: 0%;
+}
+
+.contenedor{
+    width: 20%;
+    height: auto;
+    margin: 0% 3% 0% 0%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 27%;
+    right: 0%;
+}
+
+.iconos{
+    width: 50px;
+    height: auto;
+}
