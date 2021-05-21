@@ -12,3 +12,116 @@ footer{
     width: 100%;
     height: 110px;
 }
+
+.titulomain {
+    background: #88E7CA;
+    text-align: center;
+    font-size: 80px;
+    width: 100%;
+    height: 110px;
+   
+}
+
+
+a input{
+    display: grid;
+    background: #88E7CA;
+    width:250px;
+    height: 60px;
+    font-size: 40px;
+    transition: 1s;
+    border-radius: 12px;
+    border: 0;
+    margin-left: 1125px;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ text-align: center;
+ 
+}
+
+a input:hover{
+    background: #EADBB1;    
+}
+
+.grid-container{
+    display: flex;
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+    margin-top: 10px;
+
+}
+
+.imagenes{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    margin-right: 85px;
+    margin-left: 85px;
+    justify-content: space-evenly (main axis);
+}
+.container{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 700px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    background-color: #88E7CA;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
