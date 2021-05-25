@@ -18,7 +18,7 @@ navegaMenu(naveg);//Agrega la clase nav-menu
 listaPrinMenu(listaMenu);//Agrega la clase lista-principal sub-lista
 
 /*****************************************************Listas Desordenadas**********************************************************/
-let menuItems = ["/src/resources/home.svg", "Tienda", "Carrito"];
+let menuItems = ["/Proyecto-final/src/resources/home.svg", "Tienda", "Carrito"];
 let rutasEnlaces = ["#", "#", "#"];
 
 /*****************************************************Fragmentos*********************************************************************/
@@ -68,7 +68,7 @@ function menu(textoP, elementoItemLi, i) {
 
 /*Asociando el Logo de la Tienda al menú de navegación-----------------------------------------------------------------------------*/
 function logoTiendaR(logoTienda, fragmentLogoTienda) {
-   logoTienda.innerHTML = logoTienda.src = '/src/resources/logo-tienda.png';
+   logoTienda.innerHTML = logoTienda.src = '/Proyecto-final/src/resources/logo-tienda.png';
    logoTienda.classList.add('logo');//Se le agrega la clase logo
    fragmentLogoTienda.appendChild(logoTienda);
 }

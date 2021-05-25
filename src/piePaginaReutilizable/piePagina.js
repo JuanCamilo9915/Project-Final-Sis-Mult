@@ -18,14 +18,17 @@ let enlaceInstagram = document.createElement('a');
 const fragImagenes = document.createDocumentFragment();//Elemento Imágenes
 
 /*************************************************Se Muestran las Imágenes***********************************************************/
-redWhatsapp.innerHTML = redWhatsapp.src = '/src/resources/whatsapp.svg';
-redFacebook.innerHTML = redFacebook.src = '/src/resources/facebook.svg';
-redInstagram.innerHTML = redInstagram.src = '/src/resources/instagram.svg';
+redWhatsapp.innerHTML = redWhatsapp.src = '/Proyecto-final/src/resources/whatsapp.svg';
+redFacebook.innerHTML = redFacebook.src = '/Proyecto-final/src/resources/facebook.svg';
+redInstagram.innerHTML = redInstagram.src = '/Proyecto-final/src/resources/instagram.svg';
 
 /*************************************************Rutas de las Imágenes***********************************************************/
 enlaceWhatsapp.href = 'https://www.whatsapp.com/';
+enlaceWhatsapp.target = 'Whatsapp';
 enlaceFacebook.href = 'https://www.facebook.com/';
+enlaceFacebook.target = 'facebook';
 enlaceInstagram.href = 'https://www.instagram.com/';
+enlaceInstagram.target = 'Instagram';
 
 /************************************************Añadiendo Clases HTML***************************************************************/
 redWhatsapp.classList.add('iconos');
