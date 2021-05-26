@@ -1,3 +1,8 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 .titulomain {
     background: #88E7CA;
     text-align: center;
@@ -5,4 +10,9 @@
     width: 100%;
     height: 110px;
    
+}
+
+footer{
+    width: 100%;
+    height: 110px;
 }

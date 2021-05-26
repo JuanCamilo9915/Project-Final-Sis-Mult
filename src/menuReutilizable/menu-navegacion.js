@@ -19,7 +19,7 @@ listaPrinMenu(listaMenu);//Agrega la clase lista-principal sub-lista
 
 /*****************************************************Listas Desordenadas**********************************************************/
 let menuItems = ["/Proyecto-final/src/resources/home.svg", "Tienda", "Carrito"];
-let rutasEnlaces = ["/Proyecto-final/src/index.html", "#", "#"];
+let rutasEnlaces = ["/Proyecto-final/src/index.html", "/Proyecto-final/src/tienda.html", "/Proyecto-final/src/carritoCompras.html"];
 
 /*****************************************************Fragmentos*********************************************************************/
 /*Navegación------*/
