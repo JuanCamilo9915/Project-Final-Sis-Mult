@@ -1,0 +1,65 @@
+#encabezado-app{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EADBB1;
+}
+
+.logo{
+    margin: 10px 0px 0px 70px;
+    width: 140px;
+    height: 100px;
+    border-radius: 50%;/*El padding deforma el border radius*/
+}
+
+.nav-menu{
+    display: flex;
+    width: 40%;
+    height: auto;
+}
+
+.lista-principal{
+    width: 70%;
+    height: auto;
+    list-style: none;
+    display: flex;
+}
+
+.items-menu{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    padding: 0px 35px 0px 35px;
+}
+
+.items-menu:hover{
+    width: auto;
+    background-color: #88E7CA;
+}
+
+.nav-menu .lista-principal .items-menu .items-menu-p{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+}
+
+.nav-menu .lista-principal .items-menu .items-menu-p > a{
+    width: 50%;
+    height: auto;
+    display: block;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.nav-menu .lista-principal .items-menu .items-menu-p:hover a{
+    font-size: 55px;
+}
+
+.home{
+    width: 80px;
+    height: 80px;
+}
+
+.home:hover{
+    width: 90px;
+    height: 90px;
+}
