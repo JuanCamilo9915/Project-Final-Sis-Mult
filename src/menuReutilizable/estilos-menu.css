@@ -13,7 +13,7 @@
 
 .nav-menu{
     display: flex;
-    width: 30%;
+    width: 40%;
     height: auto;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .nav-menu .lista-principal .items-menu .items-menu-p{
-    width: 50%;
+    width: 20%;
     height: auto;
     display: inline-block;
 }
